@@ -1,0 +1,103 @@
+:root {
+    /*Cool Colors*/
+    --heading-color: #2D3D4D80;
+    --heading-border-color: #EEEEEE;
+    --text-color: #F0EBD8;
+    --background-color: #121212;
+    --landing-color: #10131f;
+    --secondary-color: #0D1012;
+    --tertiary-color: #4E6CA060;
+    /*#748CAB*/
+}
+
+.Heading {
+    height: 7vh;
+    width: auto;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5);
+    background-color: var(--heading-color);
+    margin: auto;
+}
+
+.Heading h1 {
+    font-size: 3vh;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: auto;
+    text-align: right;
+    padding: 2vh;
+    padding-right: 5%;
+    color: var(--text-color);
+}
+
+.navbar a {
+    margin-right: 0
+}
+
+.cardContainer {
+    height: 400px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 4px;
+    border-color: var(--tertiary-color);
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: var(--background-color);
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding-bottom: 20vh;
+}
+
+p, h1, h2, a {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: var(--text-color);
+}
+
+.Welcome {
+    box-sizing: border-box;
+    padding-top: 35vh;
+    min-height: 100vh;
+    border-bottom: 1px solid #FFFFFF80;
+    background-color: var(--landing-color);
+}
+
+.Welcome p {
+    display: block;
+    line-height: 1;
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+}
+
+.Welcome span {
+    padding-top: 2vh;
+}
+
+.SectionBackground {
+    box-sizing: border-box;
+    padding-top: 5vh;
+    min-height: 50vh;
+}
+
+h1.SectionTitleText {
+    margin: auto;
+    margin-top: 4vh;
+    border-bottom: 2px solid #DDDDDD;
+    border-radius: 1px;
+    width: fit-content;
+    font-size: 5vh;
+    letter-spacing: 1.5px;
+    font-weight: lighter;
+    margin-bottom: 4vh;
+}
+
+p.AboutMeText {
+    font-size: 24px;
+}
+
