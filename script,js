@@ -1,0 +1,21 @@
+//Default theme
+let darkMode = true;
+
+//Get root pseudo-class of CSS
+var root = document.querySelector(":root");
+
+//Toggle theme function 
+function toggleTheme() {
+    if (darkMode == true) {
+        //Set to light theme
+        root.style.setProperty("--background-color", '#F0EBD8');
+        root.style.setProperty("--text-color", '#121212');
+        root.style.setProperty("--landing-color", "#FAF0E6");
+    } else {
+        //Set to dark theme
+        root.style.setProperty("--background-color", "#101010");
+        root.style.setProperty("--text-color", "#F0EBD8");
+        root.style.setProperty("--landing-color", "#10131f");
+    }
+    darkMode = !darkMode
+}
